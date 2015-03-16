@@ -1,9 +1,9 @@
 {
-    "id": "example-generator",
-    "name": "Example Generator",
+    "id": "recursivity-2d-tree",
+    "name": "Recursivity: 2d Tree",
     "version": "1.0.0",
     "authors": [
-        "Your Name <email@domain.com> (http://domain.com)"
+        "Greg Tatum <tatum.creative@gmail.com> (http://gregtatum.com)"
     ],
-    "description": "This is an example generator showing how to create an application for Stuvio. Please refer to the README for more information."
+    "description": "Draw colorful 2d trees."
 }

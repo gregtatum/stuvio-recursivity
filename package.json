@@ -1,0 +1,26 @@
+{
+  "name": "stuvio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "browserify -e lib/generator.js -o source/bundle.js",
+    "watch": "watchify -e lib/generator.js -o source/bundle.js -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TatumCreative/stuvio-recursivity.git"
+  },
+  "author": "Greg Tatum",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/stuvio/sandbox/issues"
+  },
+  "homepage": "https://github.com/stuvio/sandbox",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "watchify": "^2.4.0"
+  }
+}

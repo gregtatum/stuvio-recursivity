@@ -9,6 +9,8 @@ var Generator = (function() {
 
     var canvas = document.createElement( 'canvas' )
     var context = canvas.getContext( '2d' )
+	
+	window.canvas = canvas
 
     var settings = {
 
