@@ -973,6 +973,13 @@ Scene.prototype = {
 				this.context.lineCap = "round"
 				this.drawTree( lineNode, this.nodeLevels, this.nodeLevels )
 			}
+		} else {
+			
+			this.context.font = Math.round( this.canvas.width / 10 ) + "px Montserrat, sans-serif"
+			this.context.textAlign = "center"
+			this.context.fillStyle = "#ffffff"
+			this.context.fillText("Draw Here", this.canvas.width / 2, this.canvas.height / 2);
+			this.context.fillText("Draw Here", this.canvas.width / 2, this.canvas.height / 2);
 		}
 		
 	},
